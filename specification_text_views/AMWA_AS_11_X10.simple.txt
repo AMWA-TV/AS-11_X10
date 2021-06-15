@@ -220,7 +220,7 @@ An implementation complies with this Specification if it complies with the Compo
             [B] Picture Format constraints
                 Conformance: mandatory
                 [A] The decoded <Picture Essence> conforms to <ITU-R Recommendation ITU-R BT.2100-1> where: "Frame frequency (Hz)" is "60/1.001" or "60"; "Pixel count" is "1920 x 1080" or "3840 x 2160"; the "Sampling lattice" uses a "4:2:2 system"; "Coding format" is "10 bits per component"; "Signal format" is "Non-constant luminance Y' C'b C'r".
-                [A] The transfer function is chosen for delivery of Picture Essence with "<High Dynamic Range>".
+                [A] The transfer function is chosen for delivery of <Picture Essence> with "<High Dynamic Range>".
                     [B] High Dynamic Range
                         [A] The transfer function of the <Picture Essence> conforms to one of those in <ITU-R Recommendation ITU-R BT.2100-1>.
                         [A] If the "Hybrid Log-Gamma" system is chosen, the "narrow range" signal representation is used.

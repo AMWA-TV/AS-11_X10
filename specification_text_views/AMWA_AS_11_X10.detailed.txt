@@ -720,18 +720,18 @@ An implementation complies with this Specification if it complies with the Compo
                             <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [R] ITU-R Recommendation ITU-R BT.2100-1
                         <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/ITU%20R-Rec-BT.2100-1/>
-                [A] The transfer function is chosen for delivery of Picture Essence with "<High Dynamic Range>".
+                [A] The transfer function is chosen for delivery of <Picture Essence> with "<High Dynamic Range>".
                     <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE_D/artefacts/3.md>
+                    [T] Picture Essence
+                        A type of <Essence> containing predominantly picture data.
+                        <Component ID: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
+                        [T] Essence
+                            A bitstream comprising picture, sound or data.
+                            <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] High Dynamic Range
                         <Component ID: http://www.amwa.tv/projects/rules/01/block/HDR/>
                         [A] The transfer function of the <Picture Essence> conforms to one of those in <ITU-R Recommendation ITU-R BT.2100-1>.
                             <Component ID: http://www.amwa.tv/projects/rules/01/block/HDR/artefacts/1.md>
-                            [T] Picture Essence
-                                A type of <Essence> containing predominantly picture data.
-                                <Component ID: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
-                                [T] Essence
-                                    A bitstream comprising picture, sound or data.
-                                    <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
                             [R] ITU-R Recommendation ITU-R BT.2100-1
                                 <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/ITU%20R-Rec-BT.2100-1/>
                         [A] If the "Hybrid Log-Gamma" system is chosen, the "narrow range" signal representation is used.
